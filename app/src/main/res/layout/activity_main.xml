@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/drawable_gradient_animation_list"
+    tools:context=".MainActivity">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="40dp"
+        app:cardCornerRadius="15dp">
+
+        <ImageView
+            android:id="@+id/mesjid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/islam">
+
+        </ImageView>
+
+        <TextView
+            style="@style/Banner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="170dp"
+            android:gravity="center_horizontal"
+            android:text="Masjid Ku Apps"
+            android:textAlignment="center">
+
+        </TextView>
+
+
+        <EditText
+            android:id="@+id/username"
+            style="@style/styleEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="220dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/edit_text_style"
+            android:hint="Masukan Username"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/password"
+            style="@style/styleEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/username"
+            android:layout_alignStart="@+id/username"
+            android:layout_alignLeft="@+id/username"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="280dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/edit_text_style"
+            android:ems="10"
+            android:hint="Masukan Password"
+            android:inputType="textPassword" />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/password"
+            android:layout_alignStart="@+id/password"
+            android:layout_alignLeft="@+id/password"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="340dp"
+            android:layout_marginRight="30dp"
+            android:text="Tampilkan Password" />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="500dp"
+        android:background="@drawable/button"
+        android:onClick="login"
+        android:text="login" />
+
+
+</RelativeLayout>

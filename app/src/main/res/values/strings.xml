@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Masjid Ku</string>
+    <string name="text_logo">Android Tutorials Hub</string>
+    <string name="text_hint_email">Email</string>
+    <string name="text_hint_password">Password</string>
+    <string name="text_login">Login</string>
+
+    <string name="judul">MASJID AL AMALIA</string>
+
+    <string name="text">Masjid Al Amalia Perumahan Villa Pamulang berfungsi sebagai pusat ibadah,
+        pembinaan umat dan peningkatan kesejahteraan umat. Agar Masjid dapat terlaksana / kiranya
+        perlu adanya dukungan dari berbagai pihak mulai dari takmir itu sendiri, tokoh agama,
+        alim ulama,tokoh masyarakat, dan jama’ah pada umumnya.</string>
+
+
+    <string name="text2">Berangkat dari hal tersebut kewajiban bagi kita semua sebagai umat beragama Islam untuk turut membina sesama umat sebagai
+        bekal meniti dan mengarungi kehidupan di dunia dan di akhirat ini dengan baik dan searah dengan Apa yang Allah mau. Oleh karena itu kiranya telah
+        banyak yang dapat kita laksanakan dalam periode ini.</string>
+
+    <string name="text3">Pembinaan umat lewat Masjid merupakan
+        upaya pembinaan yang memerlukan penanganan serius dan berkesinambungan, karena tentu saja akan
+            sering ditemui permasalahan yang muncul.Masjid Al Amalia yang pada awalnya dibangun oleh seorang donatur pada tahun 2004
+        Masjid tersebut oleh donatur pengelolaan dan biaya operasional diserahkan pada warga
+        Perumahan Villa Pamulang. Masjid Al-Amalia mempunyai luas tanah +/- 1.433 m2 dan luas bangunan +/- 512 m2.
+        Alhamdulillah hingga saat ini masjid masih kokoh berdiri dan ramai jamaah.</string>
+
+    <string name="apps">Jadwal Kajian</string>
+
+
+
+</resources>
