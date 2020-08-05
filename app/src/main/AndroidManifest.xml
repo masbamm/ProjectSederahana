@@ -9,18 +9,24 @@
         android:roundIcon="@mipmap/icoon"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ContactActivity"
-            android:parentActivityName=".HomeActivity"
-            android:label="Contact Person"/>
-        <activity android:name=".JadwalActivity"
-            android:parentActivityName=".HomeActivity"
-            android:label="@string/apps"/>
-        <activity android:name=".LaporanActivity"
-            android:parentActivityName=".HomeActivity"/>
-        <activity android:name=".AboutActivity"
+        <activity
+            android:name=".ContactActivity"
+            android:label="Contact Person"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".JadwalActivity"
+            android:label="@string/apps"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".LaporanActivity"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".AboutActivity"
             android:parentActivityName=".HomeActivity"
             android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".SplashActivity"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
